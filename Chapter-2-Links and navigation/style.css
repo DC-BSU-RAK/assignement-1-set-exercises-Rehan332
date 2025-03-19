@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ff007f;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #202020;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff007f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
