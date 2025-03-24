@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    filter: grayscale(50%) brightness(90%); /* Example filter */
+    transition: filter 0.3s ease;
+}
+
+img:hover {
+    filter: none; /* Removes filter on hover */
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}
