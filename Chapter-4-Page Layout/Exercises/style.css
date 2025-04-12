@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  /* Navigation styling */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  /* Main layout structure */
+  main {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  /* Welcome section styles */
+  .welcome {
+    flex: 3;
+  }
+  
+  .welcome h2 {
+    border-bottom: 3px solid #17072b;
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  
+  .welcome img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Line up sidebar styling */
+  .lineup {
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+  }
+  
+  .lineup h2 {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .lineup ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lineup li {
+    margin-bottom: 10px;
+  }
+  
+  .lineup .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .lineup .images img {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
