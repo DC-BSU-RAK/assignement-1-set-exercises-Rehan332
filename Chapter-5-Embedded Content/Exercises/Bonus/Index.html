@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alan Partridge Soundboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <!-- Audio Sample Grid -->
+    <section class="soundboard">
+      <h1>Alan Partridge Soundboard</h1>
+      <div class="controls">
+        <button id="prevPage" onclick="prevPage()">⬅</button>
+        <button id="nextPage" onclick="nextPage()">➡</button>
+      </div>
+      <div id="sampleGrid" class="grid"></div>
+    </section>
+
+    <!-- Text to Speech -->
+    <aside class="tts">
+      <h2>Text to Speech</h2>
+      <textarea id="ttsInput" placeholder="Type your text here..."></textarea>
+      <button onclick="speakText()">Say It</button>
+    </aside>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>

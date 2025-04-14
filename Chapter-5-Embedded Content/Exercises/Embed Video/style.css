@@ -1,0 +1,18 @@
+/* Make body full screen and center content */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+/* Style the video player */
+.video-container video {
+  max-width: 90vw;       /* Don't overflow screen */
+  max-height: 90vh;
+  border-radius: 12px;   /* Rounded corners */
+}
+
+  
