@@ -67,4 +67,3 @@ const samples = [
   }
   
   window.onload = renderSamples;
-  
